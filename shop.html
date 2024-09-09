@@ -33,124 +33,120 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-            <img src="assets/img/logo.png" alt="Logo">
-        </a>
-        
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="Logo">
+      </a>
+      
       <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#products">Shop</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#faq">F.A.Q</a></li>
-          <li class="dropdown">
-            <a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Events</a></li>
+        <ul class="nav">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#products" class="nav-link">Shop</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">F.A.Q</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Careers</a></li>
+              <li><a class="dropdown-item" href="#">Events</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <button class="mobile-nav-toggle d-xl-none btn btn-link" aria-label="Toggle navigation menu"><i class="bi bi-list"></i></button>
       </nav>
-  
-      <a class="btn-getstarted" href="#products">Shop Now</a>
-    </div>
 
+      <a class="btn-getstarted" href="shop.html">Shop Now</a>
+    </div>
   </header>
 
-<!-- Product Details Section -->
-<section id="product-details" class="product-details section">
-
+  <!-- Product Details Section -->
+  <section id="product-details" class="product-details section py-5">
     <div class="container">
-  
       <h2 class="text-center mb-4">Discover Our Premium Selections</h2>
       <p class="text-center mb-4">Thoughtfully crafted by those dedicated to creating unique experiences with a focus on environmental sustainability. Our products are made with natural ingredients and paired with artisanal sweets. From us to you, with care.</p>
-  
+
       <!-- Product Item 1 -->
       <div class="row gy-4 align-items-center features-item">
         <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-          <img src="assets/img/menu-1.jpg" class="img-fluid" style="border-radius: 50%; alt="Organic Green Coffee">
+          <img src="assets/img/menu-1.jpg" class="img-fluid rounded-circle" alt="Organic Green Coffee">
         </div>
         <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
           <h3>Organic Green Coffee</h3>
           <p class="fst-italic">
             Immerse yourself in the rich and aromatic flavor of our meticulously selected green coffee beans.
           </p>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="bi bi-check"></i><span> Handpicked from eco-friendly farms.</span></li>
             <li><i class="bi bi-check"></i><span> Roasted to preserve natural flavors.</span></li>
             <li><i class="bi bi-check"></i><span> Available in various roast profiles.</span></li>
           </ul>
         </div>
       </div><!-- Product Item -->
-  
+
       <!-- Product Item 2 -->
       <div class="row gy-4 align-items-center features-item">
         <div class="col-md-5 d-flex align-items-center order-1 order-md-2" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/menu-2.jpg" class="img-fluid" style="border-radius: 50%;" alt="Herbal Tea Blend">
+          <img src="assets/img/menu-2.jpg" class="img-fluid rounded-circle" alt="Herbal Tea Blend">
         </div>
         <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
           <h3>Herbal Tea Blend</h3>
           <p class="fst-italic">
             Experience the soothing blend of herbs, crafted to bring relaxation and wellness to your daily routine.
           </p>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="bi bi-check"></i><span> Blended with organically grown herbs.</span></li>
             <li><i class="bi bi-check"></i><span> Promotes relaxation and rejuvenation.</span></li>
             <li><i class="bi bi-check"></i><span> Ethically sourced for maximum purity.</span></li>
           </ul>
         </div>
       </div><!-- Product Item -->
-  
+
       <!-- Product Item 3 -->
       <div class="row gy-4 align-items-center features-item">
         <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="300">
-          <img src="assets/img/menu-3.jpg" class="img-fluid" style="border-radius: 50%;" alt="Artisanal Coffee Cookies">
+          <img src="assets/img/menu-3.jpg" class="img-fluid rounded-circle" alt="Artisanal Coffee Cookies">
         </div>
         <div class="col-md-7" data-aos="fade-up" data-aos-delay="300">
           <h3>Artisanal Coffee Cookies</h3>
           <p class="fst-italic">
             Delight in our handcrafted cookies made with premium coffee, perfect for a sweet and satisfying treat.
           </p>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="bi bi-check"></i><span> Made with the finest coffee beans.</span></li>
             <li><i class="bi bi-check"></i><span> Baked with a touch of artisanal skill.</span></li>
             <li><i class="bi bi-check"></i><span> Ideal for a delicious snack or gift.</span></li>
           </ul>
         </div>
       </div><!-- Product Item -->
-  
+
       <!-- Product Item 4 -->
       <div class="row gy-4 align-items-center features-item">
         <div class="col-md-5 d-flex align-items-center order-1 order-md-2" data-aos="zoom-out" data-aos-delay="400">
-          <img src="assets/img/menu-4.jpg" class="img-fluid" style="border-radius: 50%;" alt="Handcrafted Herbal Soap">
+          <img src="assets/img/menu-4.jpg" class="img-fluid rounded-circle" alt="Handcrafted Herbal Soap">
         </div>
         <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="400">
           <h3>Handcrafted Herbal Soap</h3>
           <p class="fst-italic">
             Pamper yourself with our artisanal herbal soap, made from natural ingredients to gently care for your skin.
           </p>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="bi bi-check"></i><span> Enriched with natural botanicals.</span></li>
             <li><i class="bi bi-check"></i><span> Eco-friendly and skin-friendly.</span></li>
             <li><i class="bi bi-check"></i><span> Crafted with love and attention to detail.</span></li>
           </ul>
         </div>
       </div><!-- Product Item -->
-  
+
     </div>
-  
   </section><!-- /Product Details Section -->
-  
-  
-  
-  <footer id="footer" class="footer">
+
+  <footer id="footer" class="footer py-5">
 
     <div class="footer-newsletter">
       <div class="container">
@@ -159,9 +155,9 @@
             <h4>Subscribe to Our Newsletter</h4>
             <p>Get the latest updates, promotions, and news about our coffee products!</p>
             <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form">
-                <input type="email" name="email" placeholder="Your email">
-                <input type="submit" value="Subscribe">
+              <div class="newsletter-form d-flex">
+                <input type="email" name="email" class="form-control me-2" placeholder="Your email">
+                <input type="submit" class="btn btn-primary" value="Subscribe">
               </div>
               <div class="loading">Loading...</div>
               <div class="error-message"></div>
@@ -171,7 +167,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
@@ -185,65 +181,74 @@
             <p><strong>Email:</strong> <span>contact@dailycoffee.com.br</span></p>
           </div>
         </div>
-  
+
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">About Us</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Our Products</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a></li>
           </ul>
         </div>
-  
+
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Products</h4>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="bi bi-chevron-right"></i> <a href="#">Whole Bean Coffees</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Ground Coffees</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Coffee Accessories</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Subscriptions</a></li>
           </ul>
         </div>
-  
+
         <div class="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
           <p>Stay updated with the latest news and promotions from Daily Coffee.</p>
           <div class="social-links d-flex">
-            <a href="https://twitter.com/dailycoffee" target="_blank"><i class="bi bi-twitter"></i></a>
-            <a href="https://facebook.com/dailycoffee" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://instagram.com/dailycoffee" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://linkedin.com/company/dailycoffee" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/dailycoffee" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary" title="Follow us on Twitter" aria-label="Follow us on Twitter">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://facebook.com/dailycoffee" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary" title="Follow us on Facebook" aria-label="Follow us on Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/dailycoffee" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary" title="Follow us on Instagram" aria-label="Follow us on Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://linkedin.com/company/dailycoffee" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary" title="Follow us on LinkedIn" aria-label="Follow us on LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>            
           </div>
         </div>
-  
       </div>
     </div>
-  
+
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Daily Coffee</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  
+
   </footer>
 
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" title="Scroll to top" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
-  
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

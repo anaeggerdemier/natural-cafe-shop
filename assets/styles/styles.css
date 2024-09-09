@@ -65,6 +65,11 @@
     color: var(--heading-color);
     font-family: var(--heading-font);
   }
+
+  p {
+    font-size: 18px; 
+    line-height: 1.6; 
+  }
   
   /* PHP Email Form Messages
   ------------------------------*/
@@ -130,7 +135,7 @@
   }
 
   .header .logo {
-    grid-column: 1; /* Garante que a logo esteja na primeira coluna */
+    grid-column: 1; 
   }
 
   .header .logo img {
@@ -158,7 +163,7 @@
 
   @media (max-width: 1200px) {
     .header {
-      grid-template-columns: 1fr; /* Para dispositivos menores, a logo ocupa toda a largura */
+      grid-template-columns: 1fr; 
     }
 
     .header .logo {
@@ -1217,16 +1222,13 @@
   .contact .php-email-form button[type=submit]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
   }
-  
-  /*--------------------------------------------------------------
-  # Starter Section Section
-  --------------------------------------------------------------*/
-  .starter-section {
-    /* Add your styles here */
-  }
 
   .img-shop {
     border-radius: 50%;
-    overflow: hidden; /* Garante que o conteúdo da imagem não ultrapasse os limites do círculo */
+    overflow: hidden; 
   }
+
+   /*--------------------------------------------------------------
+  # Shop Section
+  --------------------------------------------------------------*/
   
