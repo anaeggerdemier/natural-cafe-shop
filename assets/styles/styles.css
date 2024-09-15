@@ -139,9 +139,10 @@
   }
 
   .header .logo img {
-    max-height: 100px; 
-    width: auto; 
-    margin-top: -10px; 
+    width: 250px; /* Define a largura desejada */
+    height: 250px; /* Define a altura desejada */
+    object-fit: contain; /* Mantém a proporção do SVG */
+    
   }
   
   .header .btn-getstarted,
