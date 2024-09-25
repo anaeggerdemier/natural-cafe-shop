@@ -1,6 +1,6 @@
 ## Description
 
-This project is a landing page, designed to showcase the brand's offerings as a project in college. The application features a modern, responsive layout that highlights the unique qualities of the coffee shop, including its premium products, ethical sourcing, and dedication to customer service.
+This project is a landing page created to showcase the brand's offerings as part of a college project. The application features a modern and responsive layout that highlights the unique characteristics of the coffee shop, including its premium products, ethical sourcing practices, and a strong commitment to exceptional customer service.
 
 ## Tech Stack
 
