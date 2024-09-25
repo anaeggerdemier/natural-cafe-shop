@@ -743,10 +743,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../img/grains_1.jpg'); /* Caminho para a imagem de fundo */
-    background-size: cover; /* Faz a imagem cobrir toda a área da seção */
-    background-position: center ;   /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-image: url('../img/grains_1.jpg'); 
+    background-size: cover; 
+    background-position: center ;   
+    background-repeat: no-repeat; 
     background-attachment: fixed;
   }
   
