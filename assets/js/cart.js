@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateCart() {
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
         let total = 0;
-        tbody.innerHTML = ''; // Limpar o corpo da tabela
+        tbody.innerHTML = '';
 
         cart.forEach((item, index) => {
             const row = document.createElement('tr');
@@ -40,13 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
         totalCell.textContent = `$${total.toFixed(2)}`;
     }
 
-    // Redirecionar para a página de checkout
     checkoutButton.addEventListener('click', (e) => {
-        e.preventDefault(); // Previne o comportamento padrão do link
+        e.preventDefault(); 
         if (localStorage.getItem('cart') === null || JSON.parse(localStorage.getItem('cart')).length === 0) {
             alert('Your cart is empty. Please add items to the cart before proceeding to checkout.');
         } else {
-            window.location.href = 'checkout.html'; // Redireciona para a página de checkout
+            window.location.href = 'checkout.html';
         }
     });
 

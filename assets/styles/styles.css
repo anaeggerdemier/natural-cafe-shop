@@ -139,9 +139,9 @@
   }
 
   .header .logo img {
-    width: 250px; /* Define a largura desejada */
-    height: 250px; /* Define a altura desejada */
-    object-fit: contain; /* Mantém a proporção do SVG */
+    width: auto;
+    height: 200px;
+    object-fit: contain;
     
   }
   
