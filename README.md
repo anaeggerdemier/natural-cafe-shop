@@ -45,4 +45,4 @@ All relevant details are embedded within the source code. No external documentat
 ## Credits
 
 - **Designed by**: [BootstrapMade](https://bootstrapmade.com/)
-- **Developer**: [Ana Caroline Demier](https://www.linkedin.com/in/yourprofile) 
+- **Developer**: [Ana Caroline Demier](www.linkedin.com/in/anaeggerdemier) 
